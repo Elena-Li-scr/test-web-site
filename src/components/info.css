@@ -1,0 +1,16 @@
+.info-text {
+    color: #303030;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 9px;
+}
+
+.info-text h6 {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.item-info p {
+    font-size: 8px;
+    font-weight: 600;
+}
