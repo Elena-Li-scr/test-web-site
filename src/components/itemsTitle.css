@@ -1,11 +1,11 @@
 .items-title {
     position: relative;
-    width: 100%;
+    width: 100vw;
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
-    gap: 12px;
 }
+
 
 .items-title-img {
     position: absolute;
@@ -36,5 +36,9 @@
     background: transparent;
     cursor: pointer;
     color: #797979;
-    flex: 0 0 auto;
+    padding-right: 20px;
+}
+
+.particle {
+    color: #303030 !important;
 }
