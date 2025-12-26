@@ -67,3 +67,51 @@ export const items2 = [
         discount: "4,990원"
     }
 ]
+
+
+export const items3 = [
+    {
+        img: "/assets/image/r1.png",
+        name: "품질이 너무 좋아요",
+        text: "처음 샀는데 노른자가 탱글해요!다른 계란보다 저렴하고 신선해서 두 배로 더 맛있는 느낌 ^^* 다음에도 사먹을게요",
+        data: "2025.12.26",
+        eggInfo: {
+            img: "/assets/image/장수란.png",
+            name: "장수란 (30구)",
+            rating: 5
+        }
+    },
+    {
+        img: "/assets/image/r2.png",
+        name: "장수란 맛있어요**",
+        text: "장수란? 이거 다른 특란보다는 조금 비싼데 가격 값은 하는 것 같아요 맛있음! ",
+        data: "2025.12.26",
+        eggInfo: {
+            img: "/assets/image/장수란.png",
+            name: "장수란 (30구)",
+            rating: 5
+        }
+    },
+    {
+        img: "/assets/image/r3.png",
+        name: "특란 가성비 굿굿",
+        text: "키토김밥 만든다고 계란 엄청 쓰는데 여기서 가성비 있게 구매해서 좋아요",
+        data: "2025.12.26",
+        eggInfo: {
+            img: "/assets/image/향토란.png",
+            name: "향토란 (30구)",
+            rating: 4
+        }
+    },
+    {
+        img: "/assets/image/r4.png",
+        name: "계란에서 이런 맛이???",
+        text: "고소한 맛 난다고 들었을때는 거짓말~ 이랬는데 먹어보니까 엄청 고소해요!  품질이 진짜 좋은 것 같아요 다른 사람한테도 ",
+        data: "2025.12.26",
+        eggInfo: {
+            img: "/assets/image/고향란.png",
+            name: "고향란 (30구)",
+            rating: 5
+        }
+    }
+]

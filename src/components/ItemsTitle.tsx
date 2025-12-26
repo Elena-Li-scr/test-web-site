@@ -3,19 +3,20 @@ import type { ReactNode } from "react";
 import "./itemsTitle.css";
 
 interface Props {
-    green: boolean;
+    color: string;
     text: ReactNode;
-    text2: ReactNode;
-    text3: ReactNode;
+    text2?: ReactNode;
+    text3?: ReactNode;
+    button?: boolean;
     onClick?: () => void;
 }
 
-export default function ItemsTitle({ green, text, text2, text3, onClick }: Props) {
+export default function ItemsTitle({ color, text, text2, text3, button = true, onClick }: Props) {
     return (
         <div className="items-title">
             <div>
                 <div className="items-title-img">
-                    <EggTitle green={green} />
+                    <EggTitle color={color} />
                 </div>
 
                 <div className="items-title-text-container">
@@ -27,9 +28,9 @@ export default function ItemsTitle({ green, text, text2, text3, onClick }: Props
                 </div>
             </div>
 
-            <button className="items-title-button" onClick={onClick}>
+            {button && <button className="items-title-button" onClick={onClick}>
                 더보기
-            </button>
+            </button>}
         </div>
     );
 }

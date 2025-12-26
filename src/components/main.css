@@ -2,3 +2,9 @@
     position: relative;
     padding: 5px 15px;
 }
+
+@media screen and (min-width: 850px) {
+    .main {
+        top: 84px;
+    }
+}
