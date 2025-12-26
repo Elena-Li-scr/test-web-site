@@ -1,0 +1,140 @@
+.main-head {
+    width: 100%;
+}
+
+.main-head-title {
+    display: block;
+    height: auto;
+    width: auto;
+    font-size: 20px;
+    color: #303030;
+    margin: 15px;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    z-index: 2;
+}
+
+.main-head-egg-pic {
+    display: block;
+    height: auto;
+    width: auto;
+    margin: 0;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 1;
+}
+
+.main-head-logo {
+    display: block;
+    height: 24.47px;
+    width: 77px;
+    margin: 0;
+    position: absolute;
+    top: 203px;
+    right: 16px;
+    z-index: 2;
+}
+
+.main-head-brown-ellipse {
+    display: block;
+    height: 96px;
+    width: 96px;
+    margin: 0;
+    position: absolute;
+    top: 165px;
+    left: -14px;
+    z-index: 1;
+}
+
+.main-head-green-ellipse-b {
+    display: block;
+    height: 38px;
+    width: 38px;
+    margin: 0;
+    position: absolute;
+    opacity: 0.8;
+    top: 247px;
+    left: -19px;
+    z-index: 2;
+}
+
+.main-head-egg-green {
+    display: block;
+    height: 46.06px;
+    width: 37.14px;
+    margin: 0;
+    position: absolute;
+    top: 253px;
+    left: 66px;
+    z-index: 2;
+}
+
+.main-head-green-ellipse-s {
+    display: block;
+    height: 14.86px;
+    width: 14.86px;
+    margin: 0;
+    position: absolute;
+    opacity: 0.8;
+    top: 248px;
+    left: 103px;
+    z-index: 2;
+}
+
+.main-head-text {
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    top: 278px;
+    left: 0px;
+    z-index: 2;
+    width: 100%;
+    text-align: center;
+}
+
+.main-head-text-2 {
+    font-size: 14px;
+    font-weight: 500;
+    position: absolute;
+    top: 319px;
+    left: 0px;
+    z-index: 2;
+    width: 100%;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.main-head-button-container {
+    display: block;
+    height: auto;
+    position: absolute;
+    top: 366px;
+    left: 0px;
+    z-index: 2;
+    width: 100%;
+    text-align: center;
+}
+
+.main-head-button {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    border: 1px solid #EA7913;
+    border-radius: 21px;
+    color: #EA7913;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 110px;
+    height: 28px;
+    background-color: inherit;
+}
+
+.main-head-button:hover {
+    width: 115px;
+    height: 32px;
+    background-color: #dddada;
+}

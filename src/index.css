@@ -36,3 +36,15 @@ body {
   font-family: 'Pretendard', sans-serif;
   font-weight: 500;
 }
+
+.main-container {
+  width: 100%;
+}
+
+@media screen and (min-width: 1598px) {
+  .main-container {
+    max-width: 1598px;
+    margin: 0;
+    margin-left: auto;
+  }
+}

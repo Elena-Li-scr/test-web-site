@@ -1,7 +1,10 @@
-export default function MainHeader() {
+import Header from "../components/Header";
+import Main from "../components/Main";
+export default function HomePage() {
     return (
-        <header>
-            <h1>Header</h1>
-        </header>
+        <div className="main-container">
+            <Header />
+            <Main />
+        </div>
     )
 }

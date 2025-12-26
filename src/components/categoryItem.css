@@ -1,0 +1,20 @@
+.category-item {
+    width: 102px;
+    height: 102px;
+    border: 0.5px solid #C2C2C2BF;
+    border-radius: 9px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 5px 0 rgba(64, 64, 64, 0.25);
+}
+
+.category-item-text {
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 5px;
+    color: #707070;
+}

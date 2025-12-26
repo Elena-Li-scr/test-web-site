@@ -1,0 +1,21 @@
+.items {
+    flex-wrap: nowrap;
+    gap: 15px;
+    position: absolute;
+    top: 761px;
+    left: 15px;
+}
+
+.items-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 15px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    flex: 0 0 160px;
+    padding-top: 12px;
+}
