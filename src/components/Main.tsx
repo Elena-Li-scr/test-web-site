@@ -1,6 +1,7 @@
 import MainHead from "./MainHead";
 import MainCategories from "./MainCategories";
 import Items from "./Items";
+import Info from "./Info";
 import "./main.css"
 
 export default function Main() {
@@ -10,6 +11,7 @@ export default function Main() {
             <MainHead />
             <MainCategories />
             <Items />
+            <Info />
         </main>
     )
 }

@@ -1,16 +1,81 @@
+.info {
+  position: absolute;
+  top: 1850px;
+  left: 15px;
+}
+
 .info-text {
-    color: #303030;
-    font-size: 14px;
-    font-weight: 500;
+  color: #303030;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 9px;
+  margin-top: 10px;
+}
+.items-info-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 15px;
+  row-gap: 15px;
+}
+.items-info-list > :nth-child(n + 3) {
+  display: none;
+}
+
+.phone-button {
+  color: #5cb538;
+  background-color: inherit;
+  border: #5cb538 solid 1px;
+  border-radius: 21px;
+  width: 137px;
+  height: 42px;
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 12px auto;
+  gap: 5px;
+}
+
+.notice-header h5 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 850px) {
+  .items-info-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .items-info-list > :nth-child(n + 3) {
+    display: flex;
+  }
+
+  .call-info {
+    width: 408px;
+    height: 263px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: #e4e4e4;
     border-radius: 9px;
-}
+  }
 
-.info-text h6 {
+  .call-info-phone {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .call-info-phone div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #5cb538;
     font-size: 12px;
-    font-weight: 700;
-}
-
-.item-info p {
-    font-size: 8px;
-    font-weight: 600;
+    font-weight: 500;
+  }
 }

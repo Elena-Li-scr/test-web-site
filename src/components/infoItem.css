@@ -1,0 +1,58 @@
+.item-info-container {
+  width: 170px;
+  height: 115px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 9px;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding: 10px;
+}
+
+.mark {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 3;
+  background-color: #fff;
+  width: 40px;
+  height: 20px;
+  padding: 7px 5px;
+  border-radius: 5px;
+}
+
+.item-info h6 {
+  font-size: 12px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.item-info p {
+  font-size: 8px;
+  font-weight: 400;
+  color: #fff;
+}
+
+@media screen and (min-width: 850px) {
+  .item-info-container {
+    width: 408px;
+    height: 263px;
+    padding: 15px;
+    gap: 15px;
+  }
+
+  .item-info h6 {
+    font-size: 12px;
+    font-weight: 500;
+    color: #fff;
+  }
+
+  .item-info p {
+    font-size: 8px;
+    font-weight: 400;
+    color: #fff;
+  }
+}
