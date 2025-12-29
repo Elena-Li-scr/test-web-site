@@ -11,7 +11,7 @@ export default function MainCategories() {
     ]
     return (
         <div className="main-categories">
-            <div className="main-categories-egg-title"><EggTitle green={false} /></div>
+            <div className="main-categories-egg-title"><EggTitle color="green" /></div>
             <h3 className="main-categories-title">CATEGORY</h3>
             <p className="main-categories-text">
                 <span style={{ color: "#5CB538" }}>EGG FARM </span>

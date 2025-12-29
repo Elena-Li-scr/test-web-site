@@ -59,3 +59,43 @@
     color: #707070;
     text-decoration: line-through;
 }
+
+@media screen and (min-width: 1900px) {
+
+    .item {
+        height: 445px;
+        width: 304px;
+    }
+
+    .item-img-container {
+        height: 289px;
+        width: 304px;
+    }
+
+    .item-name {
+        font-size: 24px;
+    }
+
+    .item-text {
+        font-size: 20px;
+    }
+
+    .item-price {
+        font-size: 20px;
+        margin-right: 10px;
+    }
+
+    .item-discount {
+        font-size: 16px;
+    }
+
+    .item-img {
+        width: 272px;
+        height: 170px;
+    }
+
+    .all-price {
+        justify-content: flex-start;
+    }
+
+}

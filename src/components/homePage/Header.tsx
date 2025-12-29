@@ -28,6 +28,10 @@ export default function Header() {
             </button>}
             <Logo />
             {isMenuOpen && <Navigation onClose={setIsMenuOpen} />}
+            {isMenuOpen && <div
+                className="overlay"
+                onClick={() => setIsMenuOpen(false)}
+            />}
         </header>
     )
 }

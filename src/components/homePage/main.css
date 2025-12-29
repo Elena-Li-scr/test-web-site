@@ -5,6 +5,7 @@
 
 @media screen and (min-width: 850px) {
     .main {
-        top: 84px;
+        top: 90px;
+        padding-right: 20em;
     }
 }

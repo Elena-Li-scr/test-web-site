@@ -63,4 +63,9 @@
     .banner-right {
         display: flex;
     }
+
+    .banner {
+        margin: 15px 0 30px 0;
+        width: 67%;
+    }
 }

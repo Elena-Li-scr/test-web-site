@@ -18,3 +18,19 @@
     margin-top: 5px;
     color: #707070;
 }
+
+@media screen and (min-width: 850px) {
+    .category-item {
+        width: 160px;
+        height: 160px;
+    }
+
+    .category-item-text {
+        font-size: 16px;
+    }
+
+    .category-item-img {
+        height: 70px;
+        width: auto;
+    }
+}

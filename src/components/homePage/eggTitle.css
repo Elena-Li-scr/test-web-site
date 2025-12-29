@@ -16,9 +16,21 @@
 
 .ellipse-img {
     position: absolute;
-    top: 0;
-    left: 27px;
+    top: -10px;
+    left: 40px;
     z-index: 0;
     width: 10px;
     height: 10px;
+}
+
+@media screen and (min-width: 850px) {
+    .egg-img {
+        width: 44px;
+        height: 56px;
+    }
+
+    .ellipse-img {
+        width: 16px;
+        height: 16px;
+    }
 }

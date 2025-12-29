@@ -42,3 +42,15 @@
 .particle {
     color: #303030 !important;
 }
+
+@media screen and (min-width: 850px) {
+    .items-title-text {
+        font-size: 32px;
+    }
+
+    .items-title-img {
+        top: -30px;
+        left: -4px;
+    }
+
+}

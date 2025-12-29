@@ -58,7 +58,12 @@
 
 @media screen and (min-width: 850px) {
     .main-categories-category-items {
+        top: 130px;
         grid-template-columns: repeat(5, 1fr);
+        grid-gap: 25px;
+        left: 42%;
+        transform: translateX(-42%);
+
     }
 
     .main-categories-category-items> :nth-child(4) {
@@ -69,4 +74,36 @@
     .main-categories-category-items> :nth-child(5) {
         margin-left: 0;
     }
+
+    .main-categories {
+        top: 1225px;
+    }
+
+    .main-categories-egg-brown-ellipse {
+        position: absolute;
+        top: -326px;
+        right: 2px;
+        z-index: 2;
+        height: 418px;
+        width: auto;
+    }
+
+    .main-categories-title {
+        font-size: 32px;
+        top: 0px;
+    }
+
+    .main-categories-text {
+        font-size: 20px;
+        top: 45px;
+    }
+
+}
+
+@media screen and (min-width: 1598px) {
+    .main-categories-egg-brown-ellipse {
+        right: -20em;
+    }
+
+
 }

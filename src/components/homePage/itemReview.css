@@ -92,3 +92,46 @@
     background-color: #ffffff;
 
 }
+
+@media screen and (min-width: 850px) {
+    .item-review {
+        width: 302px;
+        height: 450px;
+        padding: 17px;
+    }
+
+    .item-review-img {
+        height: 197px;
+        width: 269px;
+    }
+
+    .item-review-name {
+        font-size: 24px;
+    }
+
+    .item-review-text {
+        font-size: 15px;
+    }
+
+    .item-data {
+        font-size: 16px;
+    }
+
+    .egg-info-container {
+        width: 100%;
+        height: 60px;
+        gap: 10px;
+    }
+
+    .egg-info-text {
+        gap: 10px;
+    }
+
+    .egg-info-name {
+        font-size: 16px;
+    }
+
+    .egg-info-img {
+        width: 67px;
+    }
+}

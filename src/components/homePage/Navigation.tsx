@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./navigation.css";
-import { menuItems } from "../temporary/var";
+import { menuItems } from "../../temporary/var";
 export default function Navigation({ onClose }: { onClose: (open: boolean) => void }) {
     const [activeMenu, setActiveMenu] = useState('brand');
 
