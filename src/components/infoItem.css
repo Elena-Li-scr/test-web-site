@@ -22,6 +22,11 @@
   height: 20px;
   padding: 7px 5px;
   border-radius: 5px;
+  font-size: 8px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .item-info h6 {

@@ -6,7 +6,7 @@ export default function HomePage() {
     <div className="main-container">
       <Header />
       <Main />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

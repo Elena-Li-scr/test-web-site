@@ -13,6 +13,7 @@
 .noticeItem:last-child {
   border-bottom: none;
 }
+
 .noticeItem-text {
   display: flex;
   flex-direction: column;
@@ -35,4 +36,5 @@
   font-size: 16px;
   font-weight: 600px;
   color: #797979;
+  padding-right: 20px;
 }

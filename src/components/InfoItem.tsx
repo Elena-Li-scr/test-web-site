@@ -13,7 +13,7 @@ export default function InfoItem({ text, address, mark, img }: Props) {
       className="item-info-container"
       style={{ backgroundImage: `url(${img})` }}
     >
-      {mark && <img src="/assets/image/mark.png" alt="mark" className="mark" />}
+      {mark && <p className="mark"  >신규매장</p>}
       <div className="item-info">
         <h6>{text}</h6>
         <p>{address}</p>
