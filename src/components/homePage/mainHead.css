@@ -1,291 +1,326 @@
 .main-head {
-    width: 100%;
-    position: relative;
+  width: 100%;
+  position: relative;
 }
 
 .main-head-title {
-    display: block;
-    height: auto;
-    width: auto;
-    font-size: 20px;
-    color: #303030;
-    margin: 15px;
-    position: absolute;
-    top: 40px;
-    left: 0px;
-    z-index: 2;
+  display: block;
+  height: auto;
+  width: auto;
+  font-size: 20px;
+  color: #303030;
+  margin: 15px 0;
+  position: absolute;
+  top: 40px;
+  left: 0px;
+  z-index: 2;
 }
 
 .main-head-egg-pic {
-    display: block;
-    height: auto;
-    width: auto;
-    margin: 0;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    z-index: 1;
+  display: block;
+  height: auto;
+  width: auto;
+  margin: 0;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: 1;
 }
 
 .main-head-egg-b {
-    display: none;
+  display: none;
 }
 
 .main-head-logo {
-    display: block;
-    height: 24.47px;
-    width: 77px;
-    margin: 0;
-    position: absolute;
-    top: 203px;
-    right: 16px;
-    z-index: 2;
+  display: block;
+  height: 24.47px;
+  width: 77px;
+  margin: 0;
+  position: absolute;
+  top: 203px;
+  right: 16px;
+  z-index: 2;
 }
 
 .main-head-brown-ellipse {
-    display: block;
-    height: 96px;
-    width: 96px;
-    margin: 0;
-    position: absolute;
-    top: 165px;
-    left: -14px;
-    z-index: 1;
+  display: block;
+  height: 96px;
+  width: 96px;
+  margin: 0;
+  position: absolute;
+  top: 165px;
+  left: -28px;
+  z-index: 1;
 }
 
 .main-head-green-ellipse-b {
-    display: block;
-    height: 38px;
-    width: 38px;
-    margin: 0;
-    position: absolute;
-    opacity: 0.8;
-    top: 247px;
-    left: -19px;
-    z-index: 2;
+  display: block;
+  height: 38px;
+  width: 38px;
+  margin: 0;
+  position: absolute;
+  opacity: 0.8;
+  top: 247px;
+  left: -33px;
+  z-index: 2;
 }
 
 .main-head-egg-green {
-    display: block;
-    height: 46.06px;
-    width: 37.14px;
-    margin: 0;
-    position: absolute;
-    top: 253px;
-    left: 66px;
-    z-index: 2;
+  display: block;
+  height: 46.06px;
+  width: 37.14px;
+  margin: 0;
+  position: absolute;
+  top: -18px;
+  left: 55px;
+  z-index: 2;
 }
 
 .main-head-green-ellipse-s {
-    display: block;
-    height: 14.86px;
-    width: 14.86px;
-    margin: 0;
-    position: absolute;
-    opacity: 0.8;
-    top: 248px;
-    left: 103px;
-    z-index: 2;
-}
-
-.main-head-text {
-    font-size: 20px;
-    font-weight: 700;
-    position: absolute;
-    top: 278px;
-    left: 0px;
-    z-index: 2;
-    width: 100%;
-    text-align: center;
-}
-
-.main-head-text-2 {
-    font-size: 14px;
-    font-weight: 500;
-    position: absolute;
-    top: 319px;
-    left: 0px;
-    z-index: 2;
-    width: 100%;
-    text-align: center;
-    line-height: 1.4;
-}
-
-.main-head-button-container {
-    display: block;
-    height: auto;
-    position: absolute;
-    top: 366px;
-    left: 0px;
-    z-index: 2;
-    width: 100%;
-
-}
-
-.main-head-button {
-    display: flex;
-    margin: auto;
-    justify-content: center;
-    align-items: center;
-    font-size: 12px;
-    border: 1px solid #EA7913;
-    border-radius: 21px;
-    color: #EA7913;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    width: 110px;
-    height: 28px;
-    background-color: inherit;
-}
-
-.main-head-button:hover {
-    width: 115px;
-    height: 32px;
-    background-color: #dddada;
+  display: block;
+  height: 14.86px;
+  width: 14.86px;
+  margin: 0;
+  position: absolute;
+  opacity: 0.8;
+  top: -22px;
+  left: 90px;
+  z-index: 2;
 }
 
 .main-head-text-container {
-    display: none;
+  position: relative;
+  top: 278px;
+  width: 100%;
 }
 
-.main-head-text-container__line {
-    display: none
+.main-head-text {
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  z-index: 2;
+  width: 100%;
+  text-align: center;
+}
+
+.main-head-text-2 {
+  font-size: 14px;
+  font-weight: 500;
+  position: absolute;
+  top: 42px;
+  left: 0px;
+  z-index: 2;
+  width: 100%;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.main-head-button-container {
+  display: block;
+  height: auto;
+  position: absolute;
+  top: 366px;
+  left: 0px;
+  z-index: 2;
+  width: 100%;
+}
+
+.main-head-button {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  border: 1px solid #ea7913;
+  border-radius: 21px;
+  color: #ea7913;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 110px;
+  height: 28px;
+  background-color: inherit;
+}
+
+.main-head-button:hover {
+  width: 115px;
+  height: 32px;
+  background-color: #dddada;
+}
+
+.main-head-container__line,
+.main-head-container-text {
+  display: none;
+}
+
+.main-head-container__line {
+  display: none;
 }
 
 .ellipse-logo {
-    display: none;
+  display: none;
 }
 
 @media screen and (min-width: 850px) {
-    .main-head-egg-pic {
-        display: none;
-    }
+  .main-head {
+    padding-left: 20em;
+  }
 
-    .main-head-egg-b {
-        display: block;
-        height: auto;
-        width: 1080px;
-        margin: 0;
-        position: absolute;
-        top: 0px;
-        right: 0px;
-        z-index: 1;
-    }
+  .egg-brown-ellipse {
+    top: 899px;
+  }
 
-    .egg-brown-ellipse {
-        top: 899px;
-    }
+  .main-head-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    width: 35%;
+    height: 577px;
+    padding: 53px 0;
+  }
 
-    .main-head-text-container {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: space-between;
-        position: absolute;
-        top: 0px;
-        left: 0px;
-        z-index: 2;
-        width: 35%;
-        height: 577px;
-        padding: 53px 0;
+  .main-head-container p {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.4;
+  }
 
-    }
+  .main-head-title {
+    font-size: 26px;
+    display: block;
+    position: static;
+    text-align: left;
+    margin: 0;
+  }
 
-    .main-head-text-container p {
-        font-size: 32px;
-        font-weight: 500;
-        line-height: 1.4;
-    }
+  .main-head-text-container {
+    top: 320px;
+  }
 
-    .main-head-text-container__line {
-        display: block;
-        height: 100%;
-        width: 1px;
-        margin: 15px;
-        background-color: #303030;
+  .main-head-text {
+    top: 55px;
+    font-size: 36px;
+    font-weight: 700;
+  }
 
-    }
+  .main-head-text-2 {
+    top: 140px;
+    font-size: 26px;
+  }
 
-    .main-head-title {
-        font-size: 38px;
-        display: block;
-        position: static;
-        text-align: left;
-        margin: 0;
-    }
+  .main-head-brown-ellipse {
+    top: 235px;
+    width: 327px;
+    height: 327px;
+  }
 
-    .main-head-text {
-        top: 883px;
-        font-size: 36px;
-        font-weight: 700;
-    }
+  .main-head-green-ellipse-b {
+    top: 525px;
+    width: 129px;
+    height: 129px;
+  }
 
-    .main-head-text-2 {
-        top: 966px;
-        font-size: 26px;
-    }
+  .main-head-egg-green {
+    top: -8px;
+    left: 140px;
+    width: 68px;
+    height: 85px;
+  }
 
-    .main-head-brown-ellipse {
-        top: 672px;
-        width: 327px;
-        height: 327px;
-    }
+  .main-head-green-ellipse-s {
+    top: -20px;
+    left: 200px;
+    width: 27px;
+    height: 27px;
+  }
 
-    .main-head-green-ellipse-b {
-        top: 952px;
-        width: 129px;
-        height: 129px;
-    }
+  .main-head-button-container {
+    padding-left: 20em;
+    top: 600px;
+  }
 
-    .main-head-egg-green {
-        top: 830px;
-        left: 622px;
-        width: 68px;
-        height: 85px;
-    }
+  .main-head-button {
+    font-size: 24px;
+    width: 201px;
+    height: 68px;
+  }
 
-    .main-head-green-ellipse-s {
-        top: 822px;
-        left: 690px;
-        width: 27px;
-        height: 27px;
-    }
+  .main-head-button:hover {
+    width: 211px;
+    height: 78px;
+    background-color: #dddada;
+  }
 
-    .main-head-button-container {
-        top: 1083px;
+  .main-head-logo {
+    display: none;
+  }
 
-    }
+  .main-head-egg-pic {
+    right: -20em;
+  }
 
-    .main-head-button {
-        font-size: 24px;
-        width: 201px;
-        height: 68px;
-    }
-
-    .main-head-button:hover {
-        width: 211px;
-        height: 78px;
-        background-color: #dddada;
-    }
-
-    .main-head-logo {
-        display: none;
-    }
-
-    .ellipse-logo {
-        display: block;
-        position: absolute;
-        top: 525px;
-        left: 1120px;
-        z-index: 2;
-        width: 208px;
-        height: 208px;
-    }
+  .ellipse-logo {
+    display: block;
+    position: absolute;
+    top: 525px;
+    left: 1120px;
+    z-index: 2;
+    width: 208px;
+    height: 208px;
+  }
 }
 
-@media screen and (min-width: 1598px) {
-    .main-head-egg-b {
-        right: -40em;
-    }
+@media screen and (min-width: 1910px) {
+  .main-head-title {
+    font-size: 38px;
+  }
 
+  .main-head-text-container {
+    top: 800px;
+  }
+  .main-head-egg-b {
+    display: block;
+    height: auto;
+    width: 1080px;
+    margin: 0;
+    position: absolute;
+    top: 0px;
+    right: -40em;
+    z-index: 1;
+  }
+
+  .main-head-egg-pic {
+    display: none;
+  }
+
+  .main-head-container-text {
+    display: block;
+  }
+
+  .main-head-container__line {
+    display: block;
+    height: 100%;
+    width: 1px;
+    margin: 15px;
+    background-color: #303030;
+  }
+
+  .main-head-brown-ellipse {
+    top: 672px;
+  }
+
+  .main-head-green-ellipse-b {
+    top: 952px;
+  }
+
+  .main-head-button-container {
+    padding-left: 20em;
+    top: 1083px;
+  }
 }

@@ -43,9 +43,13 @@ export default function Info() {
         가맹문의
       </button>
       <div className="notice-container">
-        <div className="notice " >
+        <div className="notice ">
           <div className="notice-header">
-            <img src="/assets/image/sparkles.png" alt="sparkles" className="notice-header-img" />
+            <img
+              src="/assets/image/sparkles.png"
+              alt="sparkles"
+              className="notice-header-img"
+            />
             <h5>공지사항</h5>
           </div>
           <div className="notice-items">
@@ -56,7 +60,11 @@ export default function Info() {
         </div>
         <div className="notice notice-b">
           <div className="notice-header">
-            <img src="/assets/image/speakerphone.png" alt="speakerphone" className="notice-header-img" />
+            <img
+              src="/assets/image/speakerphone.png"
+              alt="speakerphone"
+              className="notice-header-img"
+            />
             <h5>이벤트</h5>
           </div>
           <div className="notice-items">
@@ -65,7 +73,6 @@ export default function Info() {
             ))}
           </div>
         </div>
-
       </div>
       <div className="contacts">
         <ItemsTitle color="brown3" text="고객 문의" button={false} />
@@ -85,7 +92,9 @@ export default function Info() {
             </div>
           </div>
           <div className="contacts-item-right">
-            <p><span style={{ color: "#5cb538" }}>궁금한 것</span>이 있으신가요?</p>
+            <p>
+              <span style={{ color: "#5cb538" }}>궁금한 것</span>이 있으신가요?
+            </p>
             <div>
               <img src="/assets/image/phone-black.png" alt="phone-black" />
               <p>1588-4654</p>
@@ -95,11 +104,17 @@ export default function Info() {
       </div>
       <div className="contacts-b">
         <div className="contacts-b-call">
-          <div className="contacts-b-header"><img src="/assets/image/chat-big.png" alt="chat-big" /><p>고객 문의</p></div>
+          <div className="contacts-b-header">
+            <img src="/assets/image/chat-big.png" alt="chat-big" />
+            <p>고객 문의</p>
+          </div>
           <div className="contacts-b-call-content">
             <img src="/assets/image/operator.png" alt="operator" />
             <div className="contacts-b-call-content-text">
-              <p><span style={{ color: "#5cb538" }}>궁금한 것</span>이 있으신가요?</p>
+              <p>
+                <span style={{ color: "#5cb538" }}>궁금한 것</span>이
+                있으신가요?
+              </p>
               <div>
                 <img src="/assets/image/phone-black.png" alt="phone-black" />
                 <p>1588-4654</p>
@@ -108,7 +123,10 @@ export default function Info() {
           </div>
         </div>
         <div className="contacts-b-center">
-          <div className="contacts-b-header"><img src="/assets/image/center.png" alt="center" /><p>고객 문의</p></div>
+          <div className="contacts-b-header">
+            <img src="/assets/image/center.png" alt="center" />
+            <p>고객 문의</p>
+          </div>
           <div className="contacts-b-center-content">
             <div className="contacts-b-center-content-item">
               <img src="/assets/image/chat-alt.png" alt="chat-alt" />
@@ -127,10 +145,12 @@ export default function Info() {
               <p>온라인가맹상담</p>
             </div>
           </div>
-
         </div>
         <div className="contacts-b-social">
-          <div className="contacts-b-header"><img src="/assets/image/chat-big.png" alt="chat-big" /><p>에그팜과 소통해요</p></div>
+          <div className="contacts-b-header">
+            <img src="/assets/image/chat-big.png" alt="chat-big" />
+            <p>에그팜과 소통해요</p>
+          </div>
           <div className="contacts-b-center-content">
             <div className="contacts-b-center-content-item">
               <img src="/assets/image/blog.png" alt="blog" />
@@ -151,8 +171,6 @@ export default function Info() {
           </div>
         </div>
       </div>
-
-
     </div>
   );
 }

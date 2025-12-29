@@ -1,6 +1,6 @@
 .info {
   position: absolute;
-  top: 1850px;
+  top: 1780px;
   left: 15px;
 }
 
@@ -19,7 +19,7 @@
   row-gap: 15px;
 }
 
-.items-info-list> :nth-child(n + 3) {
+.items-info-list > :nth-child(n + 3) {
   display: none;
 }
 
@@ -57,8 +57,6 @@
 
 .contacts {
   width: 100%;
-  margin: 15px 0;
-
 }
 
 .contacts-items {
@@ -173,14 +171,13 @@
     }
   }
 
-  .items-info-list> :nth-child(n + 3) {
+  .items-info-list > :nth-child(n + 3) {
     display: flex;
   }
 
   .info-text {
     font-size: 20px;
   }
-
 
   .call-info {
     width: 408px;
@@ -194,7 +191,7 @@
     border-radius: 9px;
   }
 
-  .call-info>p {
+  .call-info > p {
     font-size: 22px;
     font-weight: 500;
     color: #707070;
@@ -224,10 +221,10 @@
     height: 24px;
   }
 
-  .call-info-phone>p {
+  .call-info-phone > p {
     font-size: 24px;
     font-weight: 600;
-    color: #4B4B4B;
+    color: #4b4b4b;
   }
 
   .phone-button {
@@ -235,7 +232,7 @@
   }
 
   .contacts {
-    display: none
+    display: none;
   }
 
   .notice {
@@ -250,7 +247,6 @@
     font-size: 32px;
     font-weight: 700;
   }
-
 
   .notice-header-img {
     display: block;
@@ -313,5 +309,19 @@
     height: 21.81px;
   }
 
+  .contacts-b-center-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
+  .contacts-b-center-content-item {
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    color: #707070;
+  }
 }
