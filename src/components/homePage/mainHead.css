@@ -23,7 +23,7 @@
   margin: 0;
   position: absolute;
   top: 0px;
-  right: 0px;
+  right: -15px;
   z-index: 1;
 }
 
@@ -261,9 +261,6 @@
     display: none;
   }
 
-  .main-head-egg-pic {
-    right: -20em;
-  }
 
   .ellipse-logo {
     display: block;
@@ -276,6 +273,16 @@
   }
 }
 
+@media screen and (min-width: 1598px) {
+  .main-head-egg-pic {
+    right: -20em;
+  }
+
+  .main-head-egg-pic {
+    right: -15px;
+  }
+}
+
 @media screen and (min-width: 1910px) {
   .main-head-title {
     font-size: 38px;
@@ -284,6 +291,7 @@
   .main-head-text-container {
     top: 800px;
   }
+
   .main-head-egg-b {
     display: block;
     height: auto;

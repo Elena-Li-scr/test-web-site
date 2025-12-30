@@ -23,14 +23,32 @@
   height: 10px;
 }
 
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 850px) and (max-width: 1910px) {
   .egg-img {
     width: 44px;
     height: 56px;
+    top: -10px;
   }
 
   .ellipse-img {
     width: 16px;
     height: 16px;
+    top: -22px;
+    left: 33px;
+  }
+}
+
+@media screen and (min-width: 1910px) {
+  .egg-img {
+    width: 44px;
+    height: 56px;
+    top: -13px;
+  }
+
+  .ellipse-img {
+    width: 16px;
+    height: 16px;
+    top: -22px;
+    left: 37px;
   }
 }

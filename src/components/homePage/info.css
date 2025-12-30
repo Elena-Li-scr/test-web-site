@@ -19,7 +19,7 @@
   row-gap: 15px;
 }
 
-.items-info-list > :nth-child(n + 3) {
+.items-info-list> :nth-child(n + 3) {
   display: none;
 }
 
@@ -162,16 +162,15 @@
 
 @media screen and (min-width: 850px) {
   .info {
-    top: 3625px;
-
-    .items-info-list {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      margin-right: 38em;
-    }
+    top: 2705px;
   }
 
-  .items-info-list > :nth-child(n + 3) {
+  .items-info-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .items-info-list> :nth-child(n + 3) {
     display: flex;
   }
 
@@ -191,7 +190,7 @@
     border-radius: 9px;
   }
 
-  .call-info > p {
+  .call-info>p {
     font-size: 22px;
     font-weight: 500;
     color: #707070;
@@ -221,7 +220,7 @@
     height: 24px;
   }
 
-  .call-info-phone > p {
+  .call-info-phone>p {
     font-size: 24px;
     font-weight: 600;
     color: #4b4b4b;
@@ -255,14 +254,14 @@
   }
 
   .notice-container {
-    padding-right: 38em;
     margin-top: 30px;
+    width: 100%;
   }
 
   /* contacts-b */
 
   .contacts-b {
-    width: 67%;
+    width: 95%;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -323,5 +322,26 @@
     align-items: center;
     gap: 15px;
     color: #707070;
+  }
+}
+
+@media screen and (min-width: 1598px) {
+  .notice-container {
+    padding-right: 38em;
+
+  }
+
+  .items-info-list {
+    margin-right: 38em;
+  }
+
+  .contacts-b {
+    width: 67%;
+  }
+}
+
+@media screen and (min-width: 1910px) {
+  .info {
+    top: 3625px;
   }
 }

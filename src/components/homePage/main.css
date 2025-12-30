@@ -3,7 +3,9 @@
   padding: 5px 15px;
 }
 
-@media screen and (min-width: 850px) {
+
+
+@media screen and (min-width: 1598px) {
   .main {
     padding-right: 20em;
   }

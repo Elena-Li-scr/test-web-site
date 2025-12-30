@@ -43,18 +43,27 @@
   color: #303030 !important;
 }
 
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 850px) and (max-width: 1910px) {
   .items-title-text {
     font-size: 32px;
   }
 
   .items-title-img {
-    top: -35px;
+    top: -25px;
     left: -4px;
   }
+
+  .items-title-button {
+    margin-right: 15px;
+  }
+
 }
 
-@media screen and (min-width: 1920) {
+@media screen and (min-width: 1910px) {
+  .items-title-text {
+    font-size: 32px;
+  }
+
   .items-title-img {
     position: absolute;
     top: -20px;
