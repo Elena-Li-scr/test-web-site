@@ -1,6 +1,6 @@
 import "./mainCategories.css"
 import CategoryItem from "./CategoryItem"
-import EggTitle from "./EggTitle"
+import EggTitle from "../shared/EggTitle"
 export default function MainCategories() {
     const categoryItems = [
         { img: "/assets/image/브랜드소개.png", text: "브랜드소개" },

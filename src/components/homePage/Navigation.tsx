@@ -1,11 +1,11 @@
-import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import "./navigation.css";
 import { menuItems } from "../../temporary/var";
-export default function Navigation({ onClose }: { onClose: (open: boolean) => void }) {
-    const [activeMenu, setActiveMenu] = useState('brand');
+export default function Navigation({ onClose, white }: { onClose: (open: boolean) => void, white?: boolean }) {
+    const navigate = useNavigate();
 
-    const handleMenuClick = (menuId: string) => {
-        setActiveMenu(menuId);
+    const handleMenuClick = (path: string) => {
+        navigate(path);
     };
 
     return (
@@ -17,11 +17,11 @@ export default function Navigation({ onClose }: { onClose: (open: boolean) => vo
                 {menuItems.map((item) => (
                     <li
                         key={item.id}
-                        className={`nav-item ${activeMenu === item.id ? 'active' : ''}`}
+                        className={`nav-item`}
                     >
                         <button
-                            className="nav-link"
-                            onClick={() => handleMenuClick(item.id)}
+                            className={white ? "nav-link nav-link-white" : "nav-link"}
+                            onClick={() => handleMenuClick(item.path)}
                             aria-label={item.label}
                         >
                             {item.label}

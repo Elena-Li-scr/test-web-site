@@ -1,4 +1,4 @@
-import EggTitle from "./EggTitle";
+import EggTitle from "../shared/EggTitle";
 import type { ReactNode } from "react";
 import "./itemsTitle.css";
 

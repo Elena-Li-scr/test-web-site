@@ -3,6 +3,11 @@
   padding: 5px 15px;
 }
 
+@media screen and (min-width: 850px) {
+  .main {
+    top: 114px;
+  }
+}
 
 
 @media screen and (min-width: 1598px) {

@@ -186,3 +186,35 @@ export const noticeItems2 = [
   },
 ];
 
+export const princItems = [
+  {
+    title: "Sincerity",
+    subtitle: "성실, 진심함",
+    description: "에그팜은 단순히 계란을 판매하는 브랜드가 아닙니다. 우리는 가족을 생각하는 마음으로 정직하게 생산된 식품을 고객에게 전달하는 것을 사명으로 삼습니다.",
+    img: "/assets/image/brand/sincerity.png",
+    color: "#FF7900",
+  },
+  {
+    title: "Efficiency",
+    subtitle: "효율성",
+    img: "/assets/image/brand/efficiency.png"
+  }
+
+];
+
+export const princItems2 = [
+  {
+    title: "Safety",
+    subtitle: "안전성",
+    img: "/assets/image/brand/safity.png"
+  },
+  {
+    title: "Commitment",
+    subtitle: "약속, 책임감",
+    img: "/assets/image/brand/commitment.png"
+  },
+];
+
+
+
+

@@ -1,0 +1,13 @@
+.princ-card {
+    width: 166px;
+    height: 241px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 2em;
+}

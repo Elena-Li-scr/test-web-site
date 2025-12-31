@@ -1,0 +1,77 @@
+.brand-princ {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    margin-top: 4em;
+}
+
+.brand-egg-title {
+    position: absolute;
+    top: -25px;
+    left: -3px;
+    z-index: 2;
+}
+
+.brand-main-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #303030;
+    text-align: start;
+    position: relative;
+    z-index: 3;
+}
+
+.brand-main-text {
+    font-size: 14px;
+    font-weight: 500;
+    color: #707070;
+    text-align: start;
+    margin-top: 1em;
+}
+
+.princCards-list {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 1em;
+}
+
+.princCards-list:first-child {
+    margin-top: 1em;
+}
+
+.princ-cards {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 850px) {
+    .brand-princ {
+        margin-top: 5em;
+    }
+
+    .brand-main-title {
+        font-size: 32px;
+    }
+
+    .brand-main-text {
+        font-size: 26px;
+    }
+
+    .brand-egg-title {
+        top: -27px;
+        left: 3px;
+    }
+
+    .princCards-list {
+        width: 50%;
+    }
+
+}
