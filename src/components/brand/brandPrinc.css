@@ -17,12 +17,16 @@
 }
 
 .brand-main-title {
+    position: relative;
+    z-index: 3;
+}
+
+.brand-main-title>h3 {
     font-size: 20px;
     font-weight: 700;
     color: #303030;
     text-align: start;
-    position: relative;
-    z-index: 3;
+    line-height: 1.4;
 }
 
 .brand-main-text {
@@ -31,19 +35,32 @@
     color: #707070;
     text-align: start;
     margin-top: 1em;
+    line-height: 1.35;
+}
+
+.brand-main-text-2 {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    color: #707070;
+    text-align: center;
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.35;
 }
 
 .princCards-list {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
-    gap: 1em;
-}
-
-.princCards-list:first-child {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px;
+    align-items: start;
     margin-top: 1em;
 }
+
+
 
 .princ-cards {
     width: 100%;
@@ -52,12 +69,19 @@
     align-items: center;
 }
 
+@media screen and (min-width: 1920px) {
+    .brand-princ {
+        padding: 0 322px;
+    }
+
+}
+
 @media screen and (min-width: 850px) {
     .brand-princ {
         margin-top: 5em;
     }
 
-    .brand-main-title {
+    .brand-main-title>h3 {
         font-size: 32px;
     }
 
@@ -71,7 +95,17 @@
     }
 
     .princCards-list {
-        width: 50%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 24px;
+        align-items: start;
+        margin-top: 40px;
     }
+
+    .brand-main-text-2 {
+        font-size: 26px;
+        margin-bottom: 70px;
+    }
+
 
 }

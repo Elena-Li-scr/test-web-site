@@ -198,11 +198,7 @@ export const princItems = [
     title: "Efficiency",
     subtitle: "효율성",
     img: "/assets/image/brand/efficiency.png"
-  }
-
-];
-
-export const princItems2 = [
+  },
   {
     title: "Safety",
     subtitle: "안전성",
@@ -213,7 +209,42 @@ export const princItems2 = [
     subtitle: "약속, 책임감",
     img: "/assets/image/brand/commitment.png"
   },
+
 ];
+
+export const brandLogoInfo1 = [
+  {
+    title: "기본 로고 타입 가로형",
+    img: "/assets/image/logo.png",
+    small: true
+  },
+  {
+    title: "기본 로고 타입 세로형",
+    img: "/assets/image/brand/logo-eng-vert.png",
+    small: false
+  }
+
+];
+
+export const brandLogoInfo2 = [
+
+  {
+    title: "국문 로고 타입 가로형",
+    img: "/assets/image/brand/logo-kor-hor.png",
+    small: true
+  },
+  {
+    title: "국문 로고 타입 세로형",
+    img: "/assets/image/brand/logo-kor-vert.png",
+    small: false
+  },
+
+];
+
+
+
+
+
 
 
 

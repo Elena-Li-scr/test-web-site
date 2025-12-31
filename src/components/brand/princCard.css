@@ -1,13 +1,96 @@
 .princ-card {
-    width: 166px;
-    height: 241px;
+    width: 100%;
+    aspect-ratio: 1 / 1.45;
+    border-radius: 13px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-end;
+    align-items: flex-start;
     position: relative;
-    padding: 2em;
+    padding: 15px 21px;
+    color: #fff;
+    text-align: start;
+}
+
+.princ-card:first-child {
+    grid-column: 1;
+    grid-row: 1;
+    padding: 15px 12px 13px 15px;
+}
+
+.princ-card:nth-child(2) {
+    grid-column: 2;
+    grid-row: 1;
+    transform: translateY(40px);
+}
+
+.princ-card:nth-child(3) {
+    grid-column: 1;
+    grid-row: 2;
+
+}
+
+.princ-card:nth-child(4) {
+    grid-column: 2;
+    grid-row: 2;
+    transform: translateY(40px);
+}
+
+.princ-card-title {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.princ-card-subtitle {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 1em;
+}
+
+.princ-card-description {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+@media screen and (min-width: 850px) {
+    .princ-card:first-child {
+        grid-column: 1;
+        grid-row: 1;
+        padding: 15px 12px 13px 15px;
+    }
+
+    .princ-card:nth-child(2) {
+        grid-column: 2;
+        grid-row: 1;
+        transform: translateY(40px);
+    }
+
+    .princ-card:nth-child(3) {
+        grid-column: 3;
+        grid-row: 1;
+
+    }
+
+    .princ-card:nth-child(4) {
+        grid-column: 4;
+        grid-row: 1;
+        transform: translateY(40px);
+    }
+
+    .princ-card-title {
+        font-size: 36px;
+    }
+
+    .princ-card-subtitle {
+        font-size: 26px;
+    }
+
+    .princ-card-description {
+        font-size: 16px;
+    }
+
 }
