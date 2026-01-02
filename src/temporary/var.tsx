@@ -241,6 +241,41 @@ export const brandLogoInfo2 = [
 
 ];
 
+export const brandColorInfo = [
+
+  {
+    title: "Gold color",
+    img: "/assets/image/brand/gold.png",
+    text: "정직,신뢰, 품질, 가치를 상징하는 ",
+    text2: "고급스러운 컬러",
+    color: "#E17D1C"
+  },
+  {
+    title: "Green color",
+    img: "/assets/image/brand/green.png",
+    text: "신선함, 자연, 건강을 나타내는 ",
+    text2: "안심을 전하는 컬러",
+    color: "#5CB538"
+  },
+  {
+    title: "Orange color",
+    img: "/assets/image/brand/orange.png",
+    text: "따뜻함, 에너지, 긍정을 상징하는 ",
+    text2: "생동감 넘치는 컬러",
+    color: "#FF7900"
+  },
+  {
+    title: "Black color",
+    img: "/assets/image/brand/black.png",
+    text: "검은색의 깊은 강인함, 정직함을 표현하는 ",
+    text2: "무게감있는 컬러",
+    color: "#231815"
+  }
+
+];
+
+
+
 
 
 

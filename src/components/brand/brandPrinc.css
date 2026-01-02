@@ -69,12 +69,15 @@
     align-items: center;
 }
 
-@media screen and (min-width: 1920px) {
-    .brand-princ {
-        padding: 0 322px;
-    }
 
+.brand-princ-ellipse-green {
+    position: absolute;
+    width: auto;
+    height: 200px;
+    top: 535px;
+    left: -85px;
 }
+
 
 @media screen and (min-width: 850px) {
     .brand-princ {
@@ -107,5 +110,20 @@
         margin-bottom: 70px;
     }
 
+
+}
+
+@media screen and (min-width: 1920px) {
+    .brand-princ {
+        padding: 0 322px;
+    }
+
+    .brand-princ-ellipse-green {
+        height: 504px;
+        width: auto;
+        position: absolute;
+        top: 265px;
+        left: -15px;
+    }
 
 }

@@ -1,12 +1,15 @@
 import EggTitle from "../shared/EggTitle";
 import LogoInfo from "./LogoInfo";
-import { brandLogoInfo1, brandLogoInfo2 } from "../../temporary/var";
+import BrandColorCard from "./BrandColorCard";
+import { brandLogoInfo1, brandLogoInfo2, brandColorInfo } from "../../temporary/var";
 import "./brandLetter.css"
 import "./brandLogoInfo.css"
 
 export default function BrandLogoInfo() {
     return (
         <div className="brand-logo-info">
+            <img src="/assets/image/brand/ellipse-brown-big.png" alt="ellipse-brown-big" className="brand-logo-info-ellipse-brown-big" />
+            <img src="/assets/image/brand/ellipse-brown.png" alt="ellipse-brown" className="brand-logo-info-ellipse-brown" />
             <div className="brand-letter-title">
                 <div className="egg-letter-title">
                     <EggTitle color="light-green-egg" />
@@ -39,6 +42,23 @@ export default function BrandLogoInfo() {
                                 <LogoInfo key={index} title={item.title} img={item.img} small={item.small} />
                             ))}
                         </div>
+                    </div>
+                </div>
+            </div>
+            <div className="brand-color-type">
+                <div className="brand-color-type-title">Color System</div>
+                <div className="brand-color-type-main">
+                    <ul className="brand-color-type-main-text"><li>정해진 색상 코드와 비율을 기준으로 사용해 주시고, 임의로 색상을
+                        변경하거나 혼합이 불가합니다.
+
+                    </li>
+                        <li>브랜드 컬러는 로고, 배경, 인쇄물, 온라인 콘텐츠 등 모든 시각 매체에서 일관되게 유지되어야 합니다.</li>
+                        <li>컬러 사용 시 가독성, 명도 대비, 배경 조화를 고려해 브랜드 이미지가 왜곡되지 않도록 주의해 주세요.</li>
+                    </ul>
+                    <div className="brand-color-type-pic">
+                        {brandColorInfo.map((item, index) => (
+                            <BrandColorCard key={index} color={item.color} title={item.title} text={item.text} text2={item.text2} img={item.img} />
+                        ))}
                     </div>
                 </div>
             </div>

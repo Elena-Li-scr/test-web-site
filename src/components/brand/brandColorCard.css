@@ -1,0 +1,34 @@
+.brand-color-card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.brand-color-card-img {
+    width: 100%;
+    aspect-ratio: 3.5 / 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.brand-color-card-title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.35;
+    text-align: left;
+}
+
+.brand-color-card-text {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.35;
+    text-align: left;
+    color: #707070;
+}

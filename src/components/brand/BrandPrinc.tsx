@@ -6,6 +6,7 @@ import PrincCard from "./PrincCard"
 export default function BrandPrinc() {
     return (
         <div className="brand-princ">
+            <img src="/assets/image/brand/ellipse-green.png" alt="ellipse-green" className="brand-princ-ellipse-green" />
             <div className="brand-main-title">
                 <div className="brand-egg-title">
                     <EggTitle color="light-green-egg" />
